@@ -1,0 +1,95 @@
+body {
+  font-family: lora;
+  font-size: 18px;
+  color: white;
+  background-size: 60px 60px;
+  background-image: url('../images/background.svg');
+  width: 640px;
+  line-height: 1.5;
+  margin: 40px auto;
+
+
+}
+
+header {
+  background-color: white;
+  padding: 40px;
+}
+
+nav {
+  background-color: rgb(255, 50, 50);
+  padding: 20px 40px;
+
+}
+
+nav a {
+  text-decoration: none;
+  margin-right: 15px;
+  color: white;
+  border-bottom: 2px solid #f05d5d;
+  transition: all 0.5s;
+}
+
+nav a:hover {
+ color: #5000ff;
+ border-bottom: 2px solid #ffffff;
+
+}
+
+section {
+  background-color: purple;
+  padding: 40px;
+}
+
+.image {
+  padding: 0;
+}
+
+
+h2 {
+  font-size: 32px;
+  line-height: 1.2;
+}
+
+.image {
+background-size: contain;
+
+}
+
+h1, h2 {
+  font-size: 36px;
+  line-height: 1.3;
+}
+
+h2 {
+  font-style: italic;
+  margin: 20px 0 20px 0;
+}
+
+p {
+  padding-top: 5px;
+}
+
+p a {
+  text-decoration: none;
+  color: black;
+}
+
+@media (max-width: 700px) {
+
+  body {
+    font-size: 16px;
+    margin: 0;
+    width: auto;
+  }
+
+  h1, h2 {
+    font-size: 24px;
+  }
+
+  nav a {
+    display: block;
+    padding: 5px 0 5px 0;
+  }
+
+}

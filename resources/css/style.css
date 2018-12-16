@@ -37,6 +37,7 @@ nav a:hover {
 }
 
 section {
+
   background-color: purple;
   padding: 40px;
 }
@@ -45,14 +46,19 @@ section {
   padding: 0;
 }
 
+.image img {
+  max-width: 100%;
+}
+
 
 h2 {
   font-size: 32px;
   line-height: 1.2;
 }
 
-.image {
-background-size: contain;
+section .image {
+  padding: 0;
+  max-width: 100%;
 
 }
 
